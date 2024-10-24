@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "pm2dev": "pm2 start npm --name next-front -- run dev",
+    "pm2start": "pm2 start npm --name next-front -- run start",
     "lint": "next lint"
   },
   "dependencies": {
